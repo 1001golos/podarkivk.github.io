@@ -1,0 +1,148 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ШАПКА ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#page_header {
+	position: fixed;
+	z-index: 120;
+	width: inherit; /* в приложениях все четко */
+	height: 50px !important;
+}
+#page_header .back {
+	position: fixed !important;
+	left: 0px;
+	height: 50px !important;
+	background: #567ca4 !important;
+}
+#page_header .left{
+	background: #567ca4 url(http://vk.com/images/logo_vk_white.png) 0px 14px no-repeat !important;
+	margin: 0px 8px 0px 4px;
+	height: 50px !important;
+}
+#page_header .right {
+	display: none !important;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ЛОГО ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#top_logo_down {
+	background: #567ca4 url(http://vk.com/images/logo_vk_white.png) 0px 15px no-repeat !important;
+	height: 50px !important;
+}
+.top_home_link {
+	height: 50px !important;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ССЫЛКИ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.head_nav a.top_nav_link {
+	color: #fff !important;
+	height: 50px !important;
+	line-height: 47px !important;
+	font-size: 13px !important;
+	padding: 0px 15px !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.head_nav a.top_nav_link:hover,
+.head_nav a.top_nav_link.over,
+#top_back_link:hover {
+	background-color: #51759b !important;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Новый фончик ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#header, #header span, #header b, #header h1 {
+	margin-top:-2px;
+}
+
+#left_blocks {
+	width: 118px;
+	margin-top: -25px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ ФИКСАЦИЯ МЕНЮ ~~~~~~~~~~~~~~~~~~~~~~~ */
+#page_layout {
+	z-index: inherit !important;
+}
+#side_bar {
+	padding: 5px 0 0px 4px !important;
+	border-bottom-left-radius: 0px !important;
+	position: fixed;
+	z-index: 11;
+}
+#page_body, #footer_wrap {
+	z-index: 6;
+}
+#fmenu {
+	display: none !important;
+}
+#stl_side {
+	height: 100% !important;
+	top: 40px !important;
+}
+.left_box {
+	margin: 0px 0px 5px !important;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ ВЫБОР ПОДАРКА ~~~~~~~~~~~~~~~~~~~~~~~ */
+.box_title_wrap {
+	font-size: 1.09em;
+	color: #FFF;
+	background: #597BA5;
+	font-weight: bold;
+	padding: 17px 20px 18px;
+	line-height: 120%;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ BOX CORMALD ~~~~~~~~~~~~~~~~~~~~~~~ */
+.box_controls_wrap {
+	border: 1px solid #999;
+	border-top: 0px;
+}
+.box_controls {
+	padding: 8px 5px;
+	height: 26px;
+	background-color: #F2F2F2;
+	border-top: 1px solid #DAE1E8;
+}
+.box_controls_text {
+padding: 8px 8px 0px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ бок ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.left_box {
+  text-align: center;
+  padding: 10px 5px 12px 5px;
+  background: #F7F7F7;
+  margin: 0px 0px 10px;
+  overflow: hi
+  dden;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ кнопка ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.flat_button,
+.button_gray button,
+.button_blue button {
+  padding: 6px 16px 7px 16px;
+  *padding: 6px 17px 7px 17px;
+  margin: 0;
+  font-size: 11px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+  vertical-align: top;
+  overflow: visible;
+  line-height: 13px;
+  text-decoration: none;
+  background: none;
+  background-color: #6383a8;
+  color: #FFF;
+  border: 0;
+  *border: 0;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 100ms ease-in-out;
+  -khtml-transition: background-color 100ms ease-in-out;
+  -moz-transition: background-color 100ms ease-in-out;
+  -ms-transition: background-color 100ms ease-in-out;
+  -o-transition: background-color 100ms ease-in-out;
+  transition: background-color 100ms ease-in-out;
+}
